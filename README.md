@@ -2,7 +2,9 @@
 Copy all files from a source directory and it's sub-directories to a target directory.
 
 ##Description
-This script copies files (.ps1, .cmd, .xml) to a new target while persisting the directory structure.
+This script copies files (.ps1, .cmd, .xml) from your scripts to a new target while persisting the directory structure.
+
+The intention is to copy files from a script development or administrative system to a central (UNC based) file repository.
 
 *.log files are excluded from being copied to the target directory.
 
