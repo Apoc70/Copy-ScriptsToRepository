@@ -1,7 +1,7 @@
 # Copy-ScriptsToRepository.ps1
 Copy all files from a source directory and it's sub-directories to a target directory.
 
-##Description
+## Description
 This script copies files (.ps1, .cmd, .xml) from your scripts to a new target while persisting the directory structure.
 
 The intention is to copy files from a script development or administrative system to a central (UNC based) file repository.
@@ -10,7 +10,7 @@ The intention is to copy files from a script development or administrative syste
 
 Only new files and files changed during the last 180 days are copied. 
 
-##Paramaters
+## Paramaters
 ### Source
 Source directory containing all files that need to be copied
 
@@ -21,7 +21,7 @@ Destination directory
 Overwrite target file, if already exists
 
 
-##Examples
+## Examples
 ```
 .\Copy-ScriptsToRepository
 ```
@@ -36,15 +36,15 @@ Copy files from a dedicated source to a different destination folder
 THIS CODE IS MADE AVAILABLE AS IS, WITHOUT WARRANTY OF ANY KIND. THE ENTIRE  
 RISK OF THE USE OR THE RESULTS FROM THE USE OF THIS CODE REMAINS WITH THE USER.
 
-##TechNet Gallery
+## TechNet Gallery
 Find the script at TechNet Gallery
-* 
+* https://gallery.technet.microsoft.com/Copy-folder-content-to-5fd5a77a
 
 
-##Credits
+## Credits
 Written by: Thomas Stensitzki
 
-Stay connected:
+## Social 
 
 * My Blog: http://justcantgetenough.granikos.eu
 * Twitter: https://twitter.com/stensitzki
